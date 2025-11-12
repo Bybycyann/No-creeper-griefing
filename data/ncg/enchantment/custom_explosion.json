@@ -1,0 +1,368 @@
+{
+    "description": {"text":"custom_explosion","color":"#00ffd9"},
+    "anvil_cost":0,
+    "max_level": 255,
+    "weight": 1,
+    "min_cost": {"base": 1,"per_level_above_first": 1},
+    "max_cost": {"base": 1,"per_level_above_first": 1},
+    "supported_items": "minecraft:air",
+    "slots": ["any"],
+    "effects": {
+        "location_changed": [   
+            {
+                "effect": {
+                    "radius": {"type": "linear","base": 1,"per_level_above_first": 1},
+                    "block_interaction" : "none",
+                    "create_fire": false,
+                    "knockback_multiplier": 1,
+                    "type": "explode",
+                    "large_particle": {"type": "block", "block_state": "air"},
+                    "small_particle": {"type": "block", "block_state": "air"},
+                    "sound": "minecraft:intentionally_empty"
+                },
+                "requirements": {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {"components": {"custom_name": {"text": "none-0-0","color":"#00ffd9"}}}
+                }
+            },
+            {
+                "effect": {
+                    "radius": {"type": "linear","base": 1,"per_level_above_first": 1},
+                    "block_interaction" : "none",
+                    "create_fire": true,
+                    "knockback_multiplier": 1,
+                    "type": "explode",
+                    "large_particle": {"type": "block", "block_state": "air"},
+                    "small_particle": {"type": "block", "block_state": "air"},
+                    "sound": "minecraft:intentionally_empty"
+                },
+                "requirements": {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {"components": {"custom_name": {"text": "none-1-0","color":"#00ffd9"}}}
+                }
+            },
+            {
+                "effect": {
+                    "radius": {"type": "linear","base": 1,"per_level_above_first": 1},
+                    "block_interaction" : "none",
+                    "create_fire": false,
+                    "damage_type": "minecraft:explosion",
+                    "knockback_multiplier": 1,
+                    "type": "explode",
+                    "large_particle": {"type": "block", "block_state": "air"},
+                    "small_particle": {"type": "block", "block_state": "air"},
+                    "sound": "minecraft:intentionally_empty"
+                },
+                "requirements": {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {"components": {"custom_name": {"text": "none-0-1","color":"#00ffd9"}}}
+                }
+            },
+            {
+                "effect": {
+                    "radius": {"type": "linear","base": 1,"per_level_above_first": 1},
+                    "block_interaction" : "none",
+                    "create_fire": true,
+                    "damage_type": "minecraft:explosion",
+                    "knockback_multiplier": 1,
+                    "type": "explode",
+                    "large_particle": {"type": "block", "block_state": "air"},
+                    "small_particle": {"type": "block", "block_state": "air"},
+                    "sound": "minecraft:intentionally_empty"
+                },
+                "requirements": {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {"components": {"custom_name": {"text": "none-1-1","color":"#00ffd9"}}}
+                }
+            },
+            {
+                "effect": {
+                    "radius": {"type": "linear","base": 1,"per_level_above_first": 1},
+                    "block_interaction" : "block",
+                    "create_fire": false,
+                    "knockback_multiplier": 1,
+                    "type": "explode",
+                    "large_particle": {"type": "block", "block_state": "air"},
+                    "small_particle": {"type": "block", "block_state": "air"},
+                    "sound": "minecraft:intentionally_empty"
+                },
+                "requirements": {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {"components": {"custom_name": {"text": "block-0-0","color":"#00ffd9"}}}
+                }
+            },
+            {
+                "effect": {
+                    "radius": {"type": "linear","base": 1,"per_level_above_first": 1},
+                    "block_interaction" : "block",
+                    "create_fire": true,
+                    "knockback_multiplier": 1,
+                    "type": "explode",
+                    "large_particle": {"type": "block", "block_state": "air"},
+                    "small_particle": {"type": "block", "block_state": "air"},
+                    "sound": "minecraft:intentionally_empty"
+                },
+                "requirements": {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {"components": {"custom_name": {"text": "block-1-0","color":"#00ffd9"}}}
+                }
+            },
+            {
+                "effect": {
+                    "radius": {"type": "linear","base": 1,"per_level_above_first": 1},
+                    "block_interaction" : "block",
+                    "create_fire": false,
+                    "damage_type": "minecraft:explosion",
+                    "knockback_multiplier": 1,
+                    "type": "explode",
+                    "large_particle": {"type": "block", "block_state": "air"},
+                    "small_particle": {"type": "block", "block_state": "air"},
+                    "sound": "minecraft:intentionally_empty"
+                },
+                "requirements": {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {"components": {"custom_name": {"text": "block-0-1","color":"#00ffd9"}}}
+                }
+            },
+            {
+                "effect": {
+                    "radius": {"type": "linear","base": 1,"per_level_above_first": 1},
+                    "block_interaction" : "block",
+                    "create_fire": true,
+                    "damage_type": "minecraft:explosion",
+                    "knockback_multiplier": 1,
+                    "type": "explode",
+                    "large_particle": {"type": "block", "block_state": "air"},
+                    "small_particle": {"type": "block", "block_state": "air"},
+                    "sound": "minecraft:intentionally_empty"
+                },
+                "requirements": {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {"components": {"custom_name": {"text": "block-1-1","color":"#00ffd9"}}}
+                }
+            },
+            {
+                "effect": {
+                    "radius": {"type": "linear","base": 1,"per_level_above_first": 1},
+                    "block_interaction" : "mob",
+                    "create_fire": false,
+                    "knockback_multiplier": 1,
+                    "type": "explode",
+                    "large_particle": {"type": "block", "block_state": "air"},
+                    "small_particle": {"type": "block", "block_state": "air"},
+                    "sound": "minecraft:intentionally_empty"
+                },
+                "requirements": {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {"components": {"custom_name": {"text": "mob-0-0","color":"#00ffd9"}}}
+                }
+            },
+            {
+                "effect": {
+                    "radius": {"type": "linear","base": 1,"per_level_above_first": 1},
+                    "block_interaction" : "mob",
+                    "create_fire": true,
+                    "knockback_multiplier": 1,
+                    "type": "explode",
+                    "large_particle": {"type": "block", "block_state": "air"},
+                    "small_particle": {"type": "block", "block_state": "air"},
+                    "sound": "minecraft:intentionally_empty"
+                },
+                "requirements": {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {"components": {"custom_name": {"text": "mob-1-0","color":"#00ffd9"}}}
+                }
+            },
+            {
+                "effect": {
+                    "radius": {"type": "linear","base": 1,"per_level_above_first": 1},
+                    "block_interaction" : "mob",
+                    "create_fire": false,
+                    "damage_type": "minecraft:explosion",
+                    "knockback_multiplier": 1,
+                    "type": "explode",
+                    "large_particle": {"type": "block", "block_state": "air"},
+                    "small_particle": {"type": "block", "block_state": "air"},
+                    "sound": "minecraft:intentionally_empty"
+                },
+                "requirements": {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {"components": {"custom_name": {"text": "mob-0-1","color":"#00ffd9"}}}
+                }
+            },
+            {
+                "effect": {
+                    "radius": {"type": "linear","base": 1,"per_level_above_first": 1},
+                    "block_interaction" : "mob",
+                    "create_fire": true,
+                    "damage_type": "minecraft:explosion",
+                    "knockback_multiplier": 1,
+                    "type": "explode",
+                    "large_particle": {"type": "block", "block_state": "air"},
+                    "small_particle": {"type": "block", "block_state": "air"},
+                    "sound": "minecraft:intentionally_empty"
+                },
+                "requirements": {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {"components": {"custom_name": {"text": "mob-1-1","color":"#00ffd9"}}}
+                }
+            },
+            {
+                "effect": {
+                    "radius": {"type": "linear","base": 1,"per_level_above_first": 1},
+                    "block_interaction" : "tnt",
+                    "create_fire": false,
+                    "knockback_multiplier": 1,
+                    "type": "explode",
+                    "large_particle": {"type": "block", "block_state": "air"},
+                    "small_particle": {"type": "block", "block_state": "air"},
+                    "sound": "minecraft:intentionally_empty"
+                },
+                "requirements": {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {"components": {"custom_name": {"text": "tnt-0-0","color":"#00ffd9"}}}
+                }
+            },
+            {
+                "effect": {
+                    "radius": {"type": "linear","base": 1,"per_level_above_first": 1},
+                    "block_interaction" : "tnt",
+                    "create_fire": true,
+                    "knockback_multiplier": 1,
+                    "type": "explode",
+                    "large_particle": {"type": "block", "block_state": "air"},
+                    "small_particle": {"type": "block", "block_state": "air"},
+                    "sound": "minecraft:intentionally_empty"
+                },
+                "requirements": {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {"components": {"custom_name": {"text": "tnt-1-0","color":"#00ffd9"}}}
+                }
+            },
+            {
+                "effect": {
+                    "radius": {"type": "linear","base": 1,"per_level_above_first": 1},
+                    "block_interaction" : "tnt",
+                    "create_fire": false,
+                    "damage_type": "minecraft:explosion",
+                    "knockback_multiplier": 1,
+                    "type": "explode",
+                    "large_particle": {"type": "block", "block_state": "air"},
+                    "small_particle": {"type": "block", "block_state": "air"},
+                    "sound": "minecraft:intentionally_empty"
+                },
+                "requirements": {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {"components": {"custom_name": {"text": "tnt-0-1","color":"#00ffd9"}}}
+                }
+            },
+            {
+                "effect": {
+                    "radius": {"type": "linear","base": 1,"per_level_above_first": 1},
+                    "block_interaction" : "tnt",
+                    "create_fire": true,
+                    "damage_type": "minecraft:explosion",
+                    "knockback_multiplier": 1,
+                    "type": "explode",
+                    "large_particle": {"type": "block", "block_state": "air"},
+                    "small_particle": {"type": "block", "block_state": "air"},
+                    "sound": "minecraft:intentionally_empty"
+                },
+                "requirements": {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {"components": {"custom_name": {"text": "tnt-1-1","color":"#00ffd9"}}}
+                }
+            },
+            {
+                "effect": {
+                    "radius": {"type": "linear","base": 1,"per_level_above_first": 1},
+                    "block_interaction" : "block",
+                    "create_fire": false,
+                    "knockback_multiplier": 1,
+                    "type": "explode",
+                    "large_particle": {"type": "block", "block_state": "air"},
+                    "small_particle": {"type": "block", "block_state": "air"},
+                    "sound": "minecraft:intentionally_empty"
+                },
+                "requirements": {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {"components": {"custom_name": {"text": "trigger-0-0","color":"#00ffd9"}}}
+                }
+            },
+            {
+                "effect": {
+                    "radius": {"type": "linear","base": 1,"per_level_above_first": 1},
+                    "block_interaction" : "block",
+                    "create_fire": true,
+                    "knockback_multiplier": 1,
+                    "type": "explode",
+                    "large_particle": {"type": "block", "block_state": "air"},
+                    "small_particle": {"type": "block", "block_state": "air"},
+                    "sound": "minecraft:intentionally_empty"
+                },
+                "requirements": {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {"components": {"custom_name": {"text": "trigger-1-0","color":"#00ffd9"}}}
+                }
+            },
+            {
+                "effect": {
+                    "radius": {"type": "linear","base": 1,"per_level_above_first": 1},
+                    "block_interaction" : "block",
+                    "create_fire": false,
+                    "damage_type": "minecraft:explosion",
+                    "knockback_multiplier": 1,
+                    "type": "explode",
+                    "large_particle": {"type": "block", "block_state": "air"},
+                    "small_particle": {"type": "block", "block_state": "air"},
+                    "sound": "minecraft:intentionally_empty"
+                },
+                "requirements": {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {"components": {"custom_name": {"text": "trigger-0-1","color":"#00ffd9"}}}
+                }
+            },
+            {
+                "effect": {
+                    "radius": {"type": "linear","base": 1,"per_level_above_first": 1},
+                    "block_interaction" : "block",
+                    "create_fire": true,
+                    "damage_type": "minecraft:explosion",
+                    "knockback_multiplier": 1,
+                    "type": "explode",
+                    "large_particle": {"type": "block", "block_state": "air"},
+                    "small_particle": {"type": "block", "block_state": "air"},
+                    "sound": "minecraft:intentionally_empty"
+                },
+                "requirements": {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {"components": {"custom_name": {"text": "trigger-1-1","color":"#00ffd9"}}}
+                }
+            }
+        ],
+        "tick": [{
+            "effect": {"type": "run_function","function": "ncg:custom_explosion/kill"},
+            "requirements": {"condition":"entity_properties","entity":"this","predicate":{"periodic_tick": 1}}
+        }]
+    }
+}

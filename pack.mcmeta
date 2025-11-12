@@ -1,0 +1,22 @@
+{
+    "pack": {
+        "description": {
+            "text": "Disabled creeper explosions from breaking blocks",
+            "color": "green"
+        },
+        "pack_format": 42,
+        "supported_formats": [42,88],
+        "min_format": 42,
+        "max_format": 88
+    },
+    "overlays": {
+        "entries": [
+            {
+                "directory": "24w18a-25w02a",
+                "min_format": 42,
+                "max_format": 62,
+                "formats": [42,62]
+            }
+        ]
+    }
+}

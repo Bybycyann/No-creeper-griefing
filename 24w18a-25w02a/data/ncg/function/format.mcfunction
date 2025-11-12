@@ -1,0 +1,1 @@
+tellraw @s "*format 24w18a-25w02a"
