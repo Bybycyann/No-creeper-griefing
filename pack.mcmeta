@@ -1,0 +1,34 @@
+{
+    "pack": {
+        "description": {
+            "text": "Disabled creeper explosions from breaking blocks",
+            "color": "green"
+        },
+        "pack_format": 42,
+        "supported_formats": [42,100],
+        "min_format": 42,
+        "max_format": 100
+    },
+    "overlays": {
+        "entries": [
+            {
+                "directory": "enchantment-25w03a-aft",
+                "min_format": 63,
+                "max_format": 100,
+                "formats": [63,100]
+            },
+            {
+                "directory": "enchantment-25w03a-bef",
+                "min_format": 42,
+                "max_format": 62,
+                "formats": [42,62]
+            },
+            {
+                "directory": "equipment-25w03a-bef",
+                "min_format": 42,
+                "max_format": 62,
+                "formats": [42,62]
+            }
+        ]
+    }
+}
