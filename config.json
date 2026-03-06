@@ -9,5 +9,10 @@
   "suggested_version": "1.21.8",
   "license": "MIT License",
   "main_module": "main",
-  "file_mode": true
+  "file_mode": true,
+  "version_modules": {
+    "version-25w03a-bef": {
+        "version": "25w02a"
+    }
+  }
 }
