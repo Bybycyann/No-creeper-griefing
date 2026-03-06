@@ -1,0 +1,2 @@
+# 爆炸生成
+$summon minecraft:armor_stand ~ ~ ~ {CustomName:{"text":"$(block_interaction)-$(create_fire)-$(damage)","color":"#00ffd9"},equipment:{chest:{id:"minecraft:paper",components:{"minecraft:enchantments":{"ncg:custom_explosion":$(radius)}}}},"Invisible":true}
