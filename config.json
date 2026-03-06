@@ -9,9 +9,9 @@
   "type": "data",
   "suggested_version": "1.21.8",
   "license": "MIT License",
-  "main_module": "main",
-  "file_mode": false,
-  "version_reverse": false,
+  "main_module": "1.21.11",
+  "file_mode": true,
+  "version_reverse": true,
   "version_modules": {
     "1.21": {
       "version": "1.21",
