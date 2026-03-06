@@ -6,8 +6,12 @@
   "base_path": "./src",
   "sets_path": "./sets",
   "icon": "./pack.png",
+  "type": "data",
+  "suggested_version": "1.21.8",
+  "license": "MIT License",
   "main_module": "main",
   "file_mode": false,
+  "version_reverse": false,
   "version_modules": {
     "1.21": {
       "version": "1.21",
