@@ -1,0 +1,7 @@
+{
+  "set_name": "all",
+  "description": "测试用01",
+  "modules": [
+    "25w03a-bef"
+  ]
+}
