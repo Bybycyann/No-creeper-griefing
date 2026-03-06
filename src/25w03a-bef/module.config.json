@@ -1,7 +1,0 @@
-{
-  "module_name": "旧版适用",
-  "description": "适用于25w03a(1.21.4)之前的版本",
-  "support_version": "*",
-  "weight": 1,
-  "breaks": []
-}

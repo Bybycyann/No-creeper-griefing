@@ -9,5 +9,64 @@
   "suggested_version": "1.21.8",
   "license": "MIT License",
   "main_module": "main",
-  "file_mode": true
+  "file_mode": true,
+  "version_modules": {
+    "mc1.21": {
+        "version": "1.21",
+        "strict": true,
+        "target": "version-25w03a-bef"
+    },
+    "mc1.21.1": {
+        "version": "1.21.1",
+        "strict": true,
+        "target": "version-25w03a-bef"
+    },
+    "mc1.21.2": {
+        "version": "1.21.2",
+        "strict": true,
+        "target": "version-25w03a-bef"
+    },
+    "mc1.21.3": {
+        "version": "1.21.3",
+        "strict": true,
+        "target": "version-25w03a-bef"
+    },
+    "mc1.21.4": {
+        "version": "1.21.4",
+        "strict": true,
+        "target": "version-25w03a-bef"
+    },
+    "mc1.21.5": {
+        "version": "1.21.5",
+        "strict": true
+    },
+    "mc1.21.6": {
+        "version": "1.21.6",
+        "strict": true
+    },
+    "mc1.21.7": {
+        "version": "1.21.7",
+        "strict": true
+    },
+    "mc1.21.8": {
+        "version": "1.21.8",
+        "strict": true
+    },
+    "mc1.21.9": {
+        "version": "1.21.9",
+        "strict": true
+    },
+    "mc1.21.10": {
+        "version": "1.21.10",
+        "strict": true
+    },
+    "mc1.21.11": {
+        "version": "1.21.11",
+        "strict": true
+    },
+    "mc26.1": {
+        "version": "26.1",
+        "strict": true
+    }
+  }
 }
