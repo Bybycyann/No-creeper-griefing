@@ -4,7 +4,7 @@
   "description": "Disabled creeper explosions from breaking blocks",
   "version": "1.2.0",
   "base_path": "./src",
-  "icon": "./assets/ncg/icon.png",
+  "icon": "./pack.png",
   "type": "data",
   "suggested_version": "1.21.8",
   "license": "MIT License",
