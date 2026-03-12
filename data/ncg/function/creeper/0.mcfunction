@@ -1,5 +1,5 @@
 # summon marker
-summon minecraft:marker ~ ~ ~ {Tags:["ncg_explosion","init"]}
+summon minecraft:marker ~ ~ ~ {Tags:["ncg_explosion","init","smithed.entity"]}
 
 # storage data
 data modify storage minecraft:temp ncg_creeper set from entity @s

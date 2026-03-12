@@ -1,6 +1,6 @@
 # gamerule
 execute if score creeper_griefing gamerule matches 1 as @e[tag=ncg_explosion,type=minecraft:creeper] run function ncg:creeper/1
-execute if score creeper_griefing gamerule matches 0 as @e[type=minecraft:creeper,tag=!ncg_explosion] positioned as @s run function ncg:creeper/0
+execute if score creeper_griefing gamerule matches 0 as @e[tag=!ncg_explosion,type=minecraft:creeper,tag=!smithed.entity] positioned as @s run function ncg:creeper/0
 
 # core
 execute as @e[tag=ncg_explosion,type=minecraft:creeper] run scoreboard players operation @s ncg.death = #score ncg.death
