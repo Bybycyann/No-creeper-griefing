@@ -1,6 +1,6 @@
 {
     "replace": false,
     "values": [
-        "ncg:tick"
+        "ncg:__tick__"
     ]
 }

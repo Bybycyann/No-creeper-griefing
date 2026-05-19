@@ -2,7 +2,7 @@
   "pack_name": "No creeper griefing",
   "author": "Qbai",
   "description": "Disabled creeper explosions from breaking blocks",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "base_path": "./src",
   "icon": "./pack.png",
   "type": "data",

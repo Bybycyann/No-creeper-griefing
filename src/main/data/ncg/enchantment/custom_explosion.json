@@ -23,7 +23,7 @@
                 "requirements": {
                     "condition": "entity_properties",
                     "entity": "this",
-                    "predicate": {"components": {"custom_name": {"text": "none-0-0","color":"#00ffd9"}}}
+                    "predicate": {"components": {"custom_name": [{"translate":"entity.minecraft.creeper"},{"translate":"","with":[{"text":"none-0-0"}]}]}}
                 }
             },
             {
@@ -40,7 +40,7 @@
                 "requirements": {
                     "condition": "entity_properties",
                     "entity": "this",
-                    "predicate": {"components": {"custom_name": {"text": "none-1-0","color":"#00ffd9"}}}
+                    "predicate": {"components": {"custom_name": [{"translate":"entity.minecraft.creeper"},{"translate":"","with":[{"text":"none-1-0"}]}]}}
                 }
             },
             {
@@ -48,7 +48,8 @@
                     "radius": {"type": "linear","base": 1,"per_level_above_first": 1},
                     "block_interaction" : "none",
                     "create_fire": false,
-                    "damage_type": "minecraft:explosion",
+                    "attribute_to_user": true,
+                    "damage_type": "minecraft:player_explosion",
                     "knockback_multiplier": 1,
                     "type": "explode",
                     "large_particle": {"type": "block", "block_state": "air"},
@@ -58,7 +59,7 @@
                 "requirements": {
                     "condition": "entity_properties",
                     "entity": "this",
-                    "predicate": {"components": {"custom_name": {"text": "none-0-1","color":"#00ffd9"}}}
+                    "predicate": {"components": {"custom_name": [{"translate":"entity.minecraft.creeper"},{"translate":"","with":[{"text":"none-0-1"}]}]}}
                 }
             },
             {
@@ -66,7 +67,8 @@
                     "radius": {"type": "linear","base": 1,"per_level_above_first": 1},
                     "block_interaction" : "none",
                     "create_fire": true,
-                    "damage_type": "minecraft:explosion",
+                    "attribute_to_user": true,
+                    "damage_type": "minecraft:player_explosion",
                     "knockback_multiplier": 1,
                     "type": "explode",
                     "large_particle": {"type": "block", "block_state": "air"},
@@ -76,7 +78,7 @@
                 "requirements": {
                     "condition": "entity_properties",
                     "entity": "this",
-                    "predicate": {"components": {"custom_name": {"text": "none-1-1","color":"#00ffd9"}}}
+                    "predicate": {"components": {"custom_name": [{"translate":"entity.minecraft.creeper"},{"translate":"","with":[{"text":"none-1-1"}]}]}}
                 }
             },
             {
@@ -93,7 +95,7 @@
                 "requirements": {
                     "condition": "entity_properties",
                     "entity": "this",
-                    "predicate": {"components": {"custom_name": {"text": "block-0-0","color":"#00ffd9"}}}
+                    "predicate": {"components": {"custom_name": [{"translate":"entity.minecraft.creeper"},{"translate":"","with":[{"text":"block-0-0"}]}]}}
                 }
             },
             {
@@ -110,7 +112,7 @@
                 "requirements": {
                     "condition": "entity_properties",
                     "entity": "this",
-                    "predicate": {"components": {"custom_name": {"text": "block-1-0","color":"#00ffd9"}}}
+                    "predicate": {"components": {"custom_name": [{"translate":"entity.minecraft.creeper"},{"translate":"","with":[{"text":"block-1-0"}]}]}}
                 }
             },
             {
@@ -118,7 +120,8 @@
                     "radius": {"type": "linear","base": 1,"per_level_above_first": 1},
                     "block_interaction" : "block",
                     "create_fire": false,
-                    "damage_type": "minecraft:explosion",
+                    "attribute_to_user": true,
+                    "damage_type": "minecraft:player_explosion",
                     "knockback_multiplier": 1,
                     "type": "explode",
                     "large_particle": {"type": "block", "block_state": "air"},
@@ -128,7 +131,7 @@
                 "requirements": {
                     "condition": "entity_properties",
                     "entity": "this",
-                    "predicate": {"components": {"custom_name": {"text": "block-0-1","color":"#00ffd9"}}}
+                    "predicate": {"components": {"custom_name": [{"translate":"entity.minecraft.creeper"},{"translate":"","with":[{"text":"block-0-1"}]}]}}
                 }
             },
             {
@@ -136,7 +139,8 @@
                     "radius": {"type": "linear","base": 1,"per_level_above_first": 1},
                     "block_interaction" : "block",
                     "create_fire": true,
-                    "damage_type": "minecraft:explosion",
+                    "attribute_to_user": true,
+                    "damage_type": "minecraft:player_explosion",
                     "knockback_multiplier": 1,
                     "type": "explode",
                     "large_particle": {"type": "block", "block_state": "air"},
@@ -146,7 +150,7 @@
                 "requirements": {
                     "condition": "entity_properties",
                     "entity": "this",
-                    "predicate": {"components": {"custom_name": {"text": "block-1-1","color":"#00ffd9"}}}
+                    "predicate": {"components": {"custom_name": [{"translate":"entity.minecraft.creeper"},{"translate":"","with":[{"text":"block-1-1"}]}]}}
                 }
             },
             {
@@ -163,7 +167,7 @@
                 "requirements": {
                     "condition": "entity_properties",
                     "entity": "this",
-                    "predicate": {"components": {"custom_name": {"text": "mob-0-0","color":"#00ffd9"}}}
+                    "predicate": {"components": {"custom_name": [{"translate":"entity.minecraft.creeper"},{"translate":"","with":[{"text":"mob-0-0"}]}]}}
                 }
             },
             {
@@ -180,7 +184,7 @@
                 "requirements": {
                     "condition": "entity_properties",
                     "entity": "this",
-                    "predicate": {"components": {"custom_name": {"text": "mob-1-0","color":"#00ffd9"}}}
+                    "predicate": {"components": {"custom_name": [{"translate":"entity.minecraft.creeper"},{"translate":"","with":[{"text":"mob-1-0"}]}]}}
                 }
             },
             {
@@ -188,7 +192,8 @@
                     "radius": {"type": "linear","base": 1,"per_level_above_first": 1},
                     "block_interaction" : "mob",
                     "create_fire": false,
-                    "damage_type": "minecraft:explosion",
+                    "attribute_to_user": true,
+                    "damage_type": "minecraft:player_explosion",
                     "knockback_multiplier": 1,
                     "type": "explode",
                     "large_particle": {"type": "block", "block_state": "air"},
@@ -198,7 +203,7 @@
                 "requirements": {
                     "condition": "entity_properties",
                     "entity": "this",
-                    "predicate": {"components": {"custom_name": {"text": "mob-0-1","color":"#00ffd9"}}}
+                    "predicate": {"components": {"custom_name": [{"translate":"entity.minecraft.creeper"},{"translate":"","with":[{"text":"mob-0-1"}]}]}}
                 }
             },
             {
@@ -206,7 +211,8 @@
                     "radius": {"type": "linear","base": 1,"per_level_above_first": 1},
                     "block_interaction" : "mob",
                     "create_fire": true,
-                    "damage_type": "minecraft:explosion",
+                    "attribute_to_user": true,
+                    "damage_type": "minecraft:player_explosion",
                     "knockback_multiplier": 1,
                     "type": "explode",
                     "large_particle": {"type": "block", "block_state": "air"},
@@ -216,7 +222,7 @@
                 "requirements": {
                     "condition": "entity_properties",
                     "entity": "this",
-                    "predicate": {"components": {"custom_name": {"text": "mob-1-1","color":"#00ffd9"}}}
+                    "predicate": {"components": {"custom_name": [{"translate":"entity.minecraft.creeper"},{"translate":"","with":[{"text":"mob-1-1"}]}]}}
                 }
             },
             {
@@ -233,7 +239,7 @@
                 "requirements": {
                     "condition": "entity_properties",
                     "entity": "this",
-                    "predicate": {"components": {"custom_name": {"text": "tnt-0-0","color":"#00ffd9"}}}
+                    "predicate": {"components": {"custom_name": [{"translate":"entity.minecraft.creeper"},{"translate":"","with":[{"text":"tnt-0-0"}]}]}}
                 }
             },
             {
@@ -250,7 +256,7 @@
                 "requirements": {
                     "condition": "entity_properties",
                     "entity": "this",
-                    "predicate": {"components": {"custom_name": {"text": "tnt-1-0","color":"#00ffd9"}}}
+                    "predicate": {"components": {"custom_name": [{"translate":"entity.minecraft.creeper"},{"translate":"","with":[{"text":"tnt-1-0"}]}]}}
                 }
             },
             {
@@ -258,7 +264,8 @@
                     "radius": {"type": "linear","base": 1,"per_level_above_first": 1},
                     "block_interaction" : "tnt",
                     "create_fire": false,
-                    "damage_type": "minecraft:explosion",
+                    "attribute_to_user": true,
+                    "damage_type": "minecraft:player_explosion",
                     "knockback_multiplier": 1,
                     "type": "explode",
                     "large_particle": {"type": "block", "block_state": "air"},
@@ -268,7 +275,7 @@
                 "requirements": {
                     "condition": "entity_properties",
                     "entity": "this",
-                    "predicate": {"components": {"custom_name": {"text": "tnt-0-1","color":"#00ffd9"}}}
+                    "predicate": {"components": {"custom_name": [{"translate":"entity.minecraft.creeper"},{"translate":"","with":[{"text":"tnt-0-1"}]}]}}
                 }
             },
             {
@@ -276,7 +283,8 @@
                     "radius": {"type": "linear","base": 1,"per_level_above_first": 1},
                     "block_interaction" : "tnt",
                     "create_fire": true,
-                    "damage_type": "minecraft:explosion",
+                    "attribute_to_user": true,
+                    "damage_type": "minecraft:player_explosion",
                     "knockback_multiplier": 1,
                     "type": "explode",
                     "large_particle": {"type": "block", "block_state": "air"},
@@ -286,7 +294,7 @@
                 "requirements": {
                     "condition": "entity_properties",
                     "entity": "this",
-                    "predicate": {"components": {"custom_name": {"text": "tnt-1-1","color":"#00ffd9"}}}
+                    "predicate": {"components": {"custom_name": [{"translate":"entity.minecraft.creeper"},{"translate":"","with":[{"text":"tnt-1-1"}]}]}}
                 }
             },
             {
@@ -303,7 +311,7 @@
                 "requirements": {
                     "condition": "entity_properties",
                     "entity": "this",
-                    "predicate": {"components": {"custom_name": {"text": "trigger-0-0","color":"#00ffd9"}}}
+                    "predicate": {"components": {"custom_name": [{"translate":"entity.minecraft.creeper"},{"translate":"","with":[{"text":"trigger-0-0"}]}]}}
                 }
             },
             {
@@ -320,7 +328,7 @@
                 "requirements": {
                     "condition": "entity_properties",
                     "entity": "this",
-                    "predicate": {"components": {"custom_name": {"text": "trigger-1-0","color":"#00ffd9"}}}
+                    "predicate": {"components": {"custom_name": [{"translate":"entity.minecraft.creeper"},{"translate":"","with":[{"text":"trigger-1-0"}]}]}}
                 }
             },
             {
@@ -328,7 +336,8 @@
                     "radius": {"type": "linear","base": 1,"per_level_above_first": 1},
                     "block_interaction" : "block",
                     "create_fire": false,
-                    "damage_type": "minecraft:explosion",
+                    "attribute_to_user": true,
+                    "damage_type": "minecraft:player_explosion",
                     "knockback_multiplier": 1,
                     "type": "explode",
                     "large_particle": {"type": "block", "block_state": "air"},
@@ -338,7 +347,7 @@
                 "requirements": {
                     "condition": "entity_properties",
                     "entity": "this",
-                    "predicate": {"components": {"custom_name": {"text": "trigger-0-1","color":"#00ffd9"}}}
+                    "predicate": {"components": {"custom_name": [{"translate":"entity.minecraft.creeper"},{"translate":"","with":[{"text":"trigger-0-1"}]}]}}
                 }
             },
             {
@@ -346,7 +355,8 @@
                     "radius": {"type": "linear","base": 1,"per_level_above_first": 1},
                     "block_interaction" : "block",
                     "create_fire": true,
-                    "damage_type": "minecraft:explosion",
+                    "attribute_to_user": true,
+                    "damage_type": "minecraft:player_explosion",
                     "knockback_multiplier": 1,
                     "type": "explode",
                     "large_particle": {"type": "block", "block_state": "air"},
@@ -356,12 +366,12 @@
                 "requirements": {
                     "condition": "entity_properties",
                     "entity": "this",
-                    "predicate": {"components": {"custom_name": {"text": "trigger-1-1","color":"#00ffd9"}}}
+                    "predicate": {"components": {"custom_name": [{"translate":"entity.minecraft.creeper"},{"translate":"","with":[{"text":"trigger-1-1"}]}]}}
                 }
             }
         ],
         "tick": [{
-            "effect": {"type": "run_function","function": "ncg:custom_explosion/kill"},
+            "effect": {"type": "run_function","function": "ncg:source/kill"},
             "requirements": {"condition":"entity_properties","entity":"this","predicate":{"periodic_tick": 1}}
         }]
     }
