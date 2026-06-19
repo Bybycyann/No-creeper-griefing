@@ -5,17 +5,17 @@
             "color": "green"
         },
         "pack_format": 42,
-        "supported_formats": [42,104],
+        "supported_formats": [42,107],
         "min_format": 42,
-        "max_format": 104
+        "max_format": 107
     },
     "overlays": {
         "entries": [
             {
                 "directory": "enchantment-25w03a-aft",
                 "min_format": 63,
-                "max_format": 104,
-                "formats": [63,104]
+                "max_format": 107,
+                "formats": [63,107]
             },
             {
                 "directory": "enchantment-25w03a-bef",
