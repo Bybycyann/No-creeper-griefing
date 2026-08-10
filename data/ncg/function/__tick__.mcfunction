@@ -1,3 +1,6 @@
+execute unless score creeper_griefing gamerule matches 0 run scoreboard players set creeper_griefing gamerule 1
+execute unless score creeper_damage gamerule matches 0 run scoreboard players set creeper_damage gamerule 1
+
 execute as @e[type=minecraft:creeper,tag=!ncg.source] run function ncg:creeper/main
 execute as @e[tag=ncg.explosion,type=minecraft:marker] run function ncg:marker/main
 execute as @e[tag=ncg.source] run function ncg:source/main

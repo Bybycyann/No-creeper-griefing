@@ -21,7 +21,7 @@
                     "sound": "minecraft:intentionally_empty"
                 },
                 "requirements": {
-                    "condition": "entity_properties",
+                    "type": "entity_properties",
                     "entity": "this",
                     "predicate": {"components": {"custom_name": [{"translate":"entity.minecraft.creeper"},{"translate":"","with":[{"text":"none-0-0"}]}]}}
                 }
@@ -38,7 +38,7 @@
                     "sound": "minecraft:intentionally_empty"
                 },
                 "requirements": {
-                    "condition": "entity_properties",
+                    "type": "entity_properties",
                     "entity": "this",
                     "predicate": {"components": {"custom_name": [{"translate":"entity.minecraft.creeper"},{"translate":"","with":[{"text":"none-1-0"}]}]}}
                 }
@@ -57,7 +57,7 @@
                     "sound": "minecraft:intentionally_empty"
                 },
                 "requirements": {
-                    "condition": "entity_properties",
+                    "type": "entity_properties",
                     "entity": "this",
                     "predicate": {"components": {"custom_name": [{"translate":"entity.minecraft.creeper"},{"translate":"","with":[{"text":"none-0-1"}]}]}}
                 }
@@ -76,7 +76,7 @@
                     "sound": "minecraft:intentionally_empty"
                 },
                 "requirements": {
-                    "condition": "entity_properties",
+                    "type": "entity_properties",
                     "entity": "this",
                     "predicate": {"components": {"custom_name": [{"translate":"entity.minecraft.creeper"},{"translate":"","with":[{"text":"none-1-1"}]}]}}
                 }
@@ -93,7 +93,7 @@
                     "sound": "minecraft:intentionally_empty"
                 },
                 "requirements": {
-                    "condition": "entity_properties",
+                    "type": "entity_properties",
                     "entity": "this",
                     "predicate": {"components": {"custom_name": [{"translate":"entity.minecraft.creeper"},{"translate":"","with":[{"text":"block-0-0"}]}]}}
                 }
@@ -110,7 +110,7 @@
                     "sound": "minecraft:intentionally_empty"
                 },
                 "requirements": {
-                    "condition": "entity_properties",
+                    "type": "entity_properties",
                     "entity": "this",
                     "predicate": {"components": {"custom_name": [{"translate":"entity.minecraft.creeper"},{"translate":"","with":[{"text":"block-1-0"}]}]}}
                 }
@@ -129,7 +129,7 @@
                     "sound": "minecraft:intentionally_empty"
                 },
                 "requirements": {
-                    "condition": "entity_properties",
+                    "type": "entity_properties",
                     "entity": "this",
                     "predicate": {"components": {"custom_name": [{"translate":"entity.minecraft.creeper"},{"translate":"","with":[{"text":"block-0-1"}]}]}}
                 }
@@ -148,7 +148,7 @@
                     "sound": "minecraft:intentionally_empty"
                 },
                 "requirements": {
-                    "condition": "entity_properties",
+                    "type": "entity_properties",
                     "entity": "this",
                     "predicate": {"components": {"custom_name": [{"translate":"entity.minecraft.creeper"},{"translate":"","with":[{"text":"block-1-1"}]}]}}
                 }
@@ -165,7 +165,7 @@
                     "sound": "minecraft:intentionally_empty"
                 },
                 "requirements": {
-                    "condition": "entity_properties",
+                    "type": "entity_properties",
                     "entity": "this",
                     "predicate": {"components": {"custom_name": [{"translate":"entity.minecraft.creeper"},{"translate":"","with":[{"text":"mob-0-0"}]}]}}
                 }
@@ -182,7 +182,7 @@
                     "sound": "minecraft:intentionally_empty"
                 },
                 "requirements": {
-                    "condition": "entity_properties",
+                    "type": "entity_properties",
                     "entity": "this",
                     "predicate": {"components": {"custom_name": [{"translate":"entity.minecraft.creeper"},{"translate":"","with":[{"text":"mob-1-0"}]}]}}
                 }
@@ -201,7 +201,7 @@
                     "sound": "minecraft:intentionally_empty"
                 },
                 "requirements": {
-                    "condition": "entity_properties",
+                    "type": "entity_properties",
                     "entity": "this",
                     "predicate": {"components": {"custom_name": [{"translate":"entity.minecraft.creeper"},{"translate":"","with":[{"text":"mob-0-1"}]}]}}
                 }
@@ -220,7 +220,7 @@
                     "sound": "minecraft:intentionally_empty"
                 },
                 "requirements": {
-                    "condition": "entity_properties",
+                    "type": "entity_properties",
                     "entity": "this",
                     "predicate": {"components": {"custom_name": [{"translate":"entity.minecraft.creeper"},{"translate":"","with":[{"text":"mob-1-1"}]}]}}
                 }
@@ -237,7 +237,7 @@
                     "sound": "minecraft:intentionally_empty"
                 },
                 "requirements": {
-                    "condition": "entity_properties",
+                    "type": "entity_properties",
                     "entity": "this",
                     "predicate": {"components": {"custom_name": [{"translate":"entity.minecraft.creeper"},{"translate":"","with":[{"text":"tnt-0-0"}]}]}}
                 }
@@ -254,7 +254,7 @@
                     "sound": "minecraft:intentionally_empty"
                 },
                 "requirements": {
-                    "condition": "entity_properties",
+                    "type": "entity_properties",
                     "entity": "this",
                     "predicate": {"components": {"custom_name": [{"translate":"entity.minecraft.creeper"},{"translate":"","with":[{"text":"tnt-1-0"}]}]}}
                 }
@@ -273,7 +273,7 @@
                     "sound": "minecraft:intentionally_empty"
                 },
                 "requirements": {
-                    "condition": "entity_properties",
+                    "type": "entity_properties",
                     "entity": "this",
                     "predicate": {"components": {"custom_name": [{"translate":"entity.minecraft.creeper"},{"translate":"","with":[{"text":"tnt-0-1"}]}]}}
                 }
@@ -292,7 +292,7 @@
                     "sound": "minecraft:intentionally_empty"
                 },
                 "requirements": {
-                    "condition": "entity_properties",
+                    "type": "entity_properties",
                     "entity": "this",
                     "predicate": {"components": {"custom_name": [{"translate":"entity.minecraft.creeper"},{"translate":"","with":[{"text":"tnt-1-1"}]}]}}
                 }
@@ -309,7 +309,7 @@
                     "sound": "minecraft:intentionally_empty"
                 },
                 "requirements": {
-                    "condition": "entity_properties",
+                    "type": "entity_properties",
                     "entity": "this",
                     "predicate": {"components": {"custom_name": [{"translate":"entity.minecraft.creeper"},{"translate":"","with":[{"text":"trigger-0-0"}]}]}}
                 }
@@ -326,7 +326,7 @@
                     "sound": "minecraft:intentionally_empty"
                 },
                 "requirements": {
-                    "condition": "entity_properties",
+                    "type": "entity_properties",
                     "entity": "this",
                     "predicate": {"components": {"custom_name": [{"translate":"entity.minecraft.creeper"},{"translate":"","with":[{"text":"trigger-1-0"}]}]}}
                 }
@@ -345,7 +345,7 @@
                     "sound": "minecraft:intentionally_empty"
                 },
                 "requirements": {
-                    "condition": "entity_properties",
+                    "type": "entity_properties",
                     "entity": "this",
                     "predicate": {"components": {"custom_name": [{"translate":"entity.minecraft.creeper"},{"translate":"","with":[{"text":"trigger-0-1"}]}]}}
                 }
@@ -364,7 +364,7 @@
                     "sound": "minecraft:intentionally_empty"
                 },
                 "requirements": {
-                    "condition": "entity_properties",
+                    "type": "entity_properties",
                     "entity": "this",
                     "predicate": {"components": {"custom_name": [{"translate":"entity.minecraft.creeper"},{"translate":"","with":[{"text":"trigger-1-1"}]}]}}
                 }
@@ -372,7 +372,7 @@
         ],
         "tick": [{
             "effect": {"type": "run_function","function": "ncg:source/kill"},
-            "requirements": {"condition":"entity_properties","entity":"this","predicate":{"periodic_tick": 1}}
+            "requirements": {"type":"entity_properties","entity":"this","predicate":{"periodic_tick": 1}}
         }]
     }
 }

@@ -1,0 +1,23 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:value_check",
+      "range": 0,
+      "value": {
+        "type": "minecraft:score",
+        "score": "gamerule",
+        "target": {"type": "minecraft:fixed", "name": "creeper_griefing"}
+      }
+    },
+    {
+      "condition": "minecraft:value_check",
+      "range": 0,
+      "value": {
+        "type": "minecraft:score",
+        "score": "gamerule",
+        "target": {"type": "minecraft:fixed", "name": "creeper_damage"}
+      }
+    }
+  ]
+}

@@ -1,1 +1,0 @@
-$summon minecraft:armor_stand ~ ~ ~ {Tags:["ncg.source"],CustomName:'[{"translate":"entity.minecraft.creeper"},{"translate":"","with":[{"text":"$(block_interaction)-$(create_fire)-$(damage)"}]}]',ArmorItems:[{},{},{id:"minecraft:paper",components:{"minecraft:enchantments":{"ncg:custom_explosion":$(radius)}}},{}],"Invisible":true}
