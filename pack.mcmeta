@@ -5,42 +5,19 @@
             "color": "green"
         },
         "pack_format": 42,
-        "supported_formats": [42,112],
+        "supported_formats": [42,121],
         "min_format": 42,
-        "max_format": 112
+        "max_format": 121
     },
     "overlays": {
         "entries": [
-            {
-                "directory": "enchantment-26.3s4-aft",
-                "min_format": 111,
-                "max_format": 112,
-                "formats": [111,112]
-            },
-            {
-                "directory": "enchantment-25w03a-26.3s4",
-                "min_format": 63,
-                "max_format": 110,
-                "formats": [63,110]
-            },
-            {
-                "directory": "enchantment-25w03a-bef",
-                "min_format": 42,
-                "max_format": 62,
-                "formats": [42,62]
-            },
-            {
-                "directory": "predicate-26.3s4-bef",
-                "min_format": 42,
-                "max_format": 110,
-                "formats": [42,110]
-            },
-            {
-                "directory": "equipment-25w03a-bef",
-                "min_format": 42,
-                "max_format": 62,
-                "formats": [42,62]
-            }
+            { "directory": "enchantment-25w03a-26.3s4", "min_format": 63,   "max_format": 110,  "formats": [63 , 110] },
+            { "directory": "enchantment-25w03a-bef",    "min_format": 42,   "max_format": 62,   "formats": [42 , 62 ] },
+
+            { "directory": "predicate-26.3s4-26.3p1",   "min_format": 111,  "max_format": 118,  "formats": [111, 118] },
+            { "directory": "predicate-26.3s4-bef",      "min_format": 42,   "max_format": 110,  "formats": [42 , 110] },
+
+            { "directory": "equipment-25w03a-bef",      "min_format": 42,   "max_format": 62,   "formats": [42 , 62 ] }
         ]
     }
 }
